@@ -1,0 +1,221 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,100italic,100,400italic,700);
+body {
+    padding-top: 70px; /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/*For all pages*/
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1100px;
+}
+.heading {
+    font-size: 40px;
+    padding-bottom: 50px;
+    font-weight: 400;   
+    margin-left: 15px;
+    color: rgb(121,206,223);
+}
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: 100px;
+    object-fit: contain;
+}
+.nav {
+    font-size: 16px;
+    background: transparent;
+    border: transparent;
+    text-align: center;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 36px;
+}
+.navcolor {
+    color: rgb(121,206,223);
+}
+a {
+    text-decoration:none !important;
+    color: rgb(121,206,223);
+}
+a:hover {
+    color: rgb(121,206,223);
+}
+#documentation .topic {
+    margin-bottom: 40px;
+}
+.txt {
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 15px;
+    color: rgb(121,206,223);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.title-name {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.subtxt {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+h3 {
+    font-size: 35px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #FF7E00;
+/*    border-bottom: 3px solid #6dd961;*/
+}
+h4 {
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.coverpic {
+    object-fit: cover;
+    object-position: top;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+    width: 1040px;
+}
+.info {
+    color: #545454;
+    font-weight: 400;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+}
+.text {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.img-responsive {
+    margin-bottom: 30px;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #4C0938;
+}
+
+
+/*For specific page*/
+
+/*For portfolio footer*/
+.next {
+    font-size: 16px;
+    font-weight: 300;
+    color: #545454;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.next:hover {
+    color: #545454;
+}
+.foot {
+    padding-left: 930px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.portfolio-item {
+    height: 230px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.imgwrap:hover .img-port{
+    opacity: .08;
+    -webkit-backface-visibility: hidden;
+}
+.img-port {
+    display: block;
+    width:92%;
+    height:230px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    overflow: hidden;
+    opacity: 1; 
+    transition: 0.4s;
+}
+.project-title {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+.img-right {
+    object-position: right;
+}
+.img-center {
+    object-position: top;
+}
+.img-top {
+    object-position: 75%;
+}
+.project-name {
+    font-family:"Lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: #545454;
+}
+.project-info {
+    font-family:"Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #545454;
+}
+.imgwrap {
+    position: relative;
+    height: 200px;
+    width: 257px;
+}
+.ptext {
+    position:relative;
+    top: -200px;
+    bottom:0px;
+    left:0px;
+    right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    visibility:hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.imgwrap:hover .ptext {
+    visibility:visible;
+    opacity: 1;
+}
