@@ -17,22 +17,58 @@ body {
 .heading {
     font-family: 'Lato', sans-serif;
     font-size: 40px;
-    padding-bottom: 50px;
+    font-weight: 400;
+    margin-left: 15px;
+    color: rgb(121,206,223);
+}
+h1 {
+    margin-bottom: 0px;
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
     font-weight: 300;
-    margin:auto;
-    
+    margin-left: 15px;
+    color: rgb(121,206,223);
+    margin-top: 0px;
+    padding-top: 0px;
 }
 .btn-primary.outline{
     background: none;
     border: transparent;
 }
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    height: 100px;
+    object-fit: contain;
+}
 .nav {
-    font-size: 20px;
+    font-size: 16px;
     background: transparent;
     border: transparent;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 36px;
+}
+.navcolor {
+    color: rgb(121,206,223);
+}
+a {
+    text-decoration:none !important;
+    color: rgb(121,206,223);
+}
+a:hover {
+    color: rgb(121,206,223);
+}
+.col-md-3 {
+    height: 230px;
 }
 .portfolio-item {
     margin-bottom: 20px;
@@ -41,8 +77,9 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
-img:hover {
-    opacity: .3;
+.imgwrap:hover .img-responsive{
+    opacity: .08;
+    -webkit-backface-visibility: hidden;
 }
 .img-responsive {
     width:92%;
@@ -53,7 +90,6 @@ img:hover {
     overflow: hidden;
     opacity: 1; 
     transition: 0.4s;
-    -webkit-backface-visibility: hidden;
 }
 .project-title {
     font-size: 14px;
@@ -64,12 +100,18 @@ img:hover {
     object-position: right;
 }
 .img-center {
-    object-position: center;
+    object-position: top;
 }
 .img-top {
     object-position: 75%;
 }
 .project-name {
+    font-family:"Lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: #545454;
+}
+.project-info {
     font-family:"Lato";
     font-weight: 300;
     font-size: 16px;
@@ -79,3 +121,25 @@ footer {
     text-align: center;
     color: white;
     background-color: #4C0938;}
+.imgwrap {
+    position: relative;
+    height: 200px;
+    width: 257px;
+}
+.ptext {
+    position:relative;
+    top: -200px;
+    bottom:0px;
+    left:0px;
+    right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    visibility:hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.imgwrap:hover .ptext {
+    visibility:visible;
+    opacity: 1;
+}
