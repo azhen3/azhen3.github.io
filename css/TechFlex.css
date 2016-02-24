@@ -156,11 +156,13 @@ footer {
     margin-top: 20px;
     width: 19%;
     display: inline-block;
+    vertical-align: top;
     
 }
 ul {
-    margin-top: auto;
+    margin-top: 10px;
     margin-bottom: auto;
+
 }
 .proto {
     display: block;
