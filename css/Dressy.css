@@ -100,7 +100,7 @@ h4 {
 }
 .coverpic {
     object-fit: cover;
-    object-position: bottom;
+    object-position: top;
     display:block;
     margin-left: auto;
     margin-right: auto;
