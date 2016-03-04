@@ -169,10 +169,15 @@ ul {
     height: auto;
 }
 .use {
-    transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+/*    transform: rotate(-90deg);*/
+/*    -ms-transform: rotate(-90deg);  IE 9 */
+/*    -webkit-transform: rotate(-90deg);  Chrome, Safari, Opera */
     width: 100%;
+    object-fit: cover;
+}
+#flex {
+    height: 150px;
+    width:100%;
     object-fit: cover;
 }
 
