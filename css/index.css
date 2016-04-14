@@ -157,6 +157,7 @@ footer {
     color: white;
     font-size: 35px;
     position: absolute;
+    left: 10%;
     top:50%;
     transform:translateY(-50%);
     text-align: right;
