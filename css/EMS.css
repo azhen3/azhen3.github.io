@@ -112,10 +112,16 @@ h4 {
     font-size: 25px;
     border-bottom: 1px solid black;
 }
+.sum {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
 .text {
     font-weight: 300;
     font-size: 16px;
     margin-bottom: 15px;
+    line-height: 180%;
 }
 .img-responsive {
     margin-bottom: 30px;
