@@ -52,6 +52,9 @@ a {
 a:hover {
     color: rgb(121,206,223);
 }
+a:visited {
+    color: rgb(121,206,223);
+}
 #documentation .topic {
     margin-bottom: 40px;
 }

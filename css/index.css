@@ -68,6 +68,9 @@ a {
 a:hover {
     color: rgb(121,206,223);
 }
+a:visited {
+    color: rgb(121,206,223);
+}
 .col-md-3 {
     height: 230px;
 }
