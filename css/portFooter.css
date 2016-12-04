@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,100italic,100,400italic,700);
+body {
+    padding-top: 50px; /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+/*For portfolio footer*/
+.next {
+    font-size: 16px;
+    font-weight: 300;
+    color: #545454;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.next:hover {
+    color: #545454;
+}
+.foot {
+    padding-left: 90%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.portfolio-item {
+    height: 230px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.imgwrap:hover .img-port{
+    opacity: .08;
+    -webkit-backface-visibility: hidden;
+}
+.img-port {
+    width:92%;
+    height:230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    overflow: hidden;
+    opacity: 1; 
+    transition: 0.4s;
+}
+.project-title {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+.img-right {
+    object-position: right;
+}
+.img-center {
+    object-position: top;
+}
+.img-top {
+    object-position: 75%;
+}
+.project-name {
+    font-family:"Lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: #545454;
+}
+.project-info {
+    font-family:"Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #545454;
+}
+.imgwrap {
+    position: relative;
+    height: 200px;
+    width: 257px;
+}
+.ptext {
+    position:relative;
+    top: -200px;
+    bottom:0px;
+    left:0px;
+    right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    visibility:hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.imgwrap:hover .ptext {
+    visibility:visible;
+    opacity: 1;
+}

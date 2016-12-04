@@ -25,36 +25,47 @@
 
 <body>
 
-    <!-- Page Content -->
-    
+    <!--    Navigation-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="index.html">
+                        <img class="logo" src="./Projects/Logo%20Composition.png" alt="Amy Zhen Logo">
+                    </a>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="heading hidden-xs page-scroll" href="index.html">AMY ZHEN</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <button class="nav-button txt page-scroll"><a class="navcolor" href="index.html">PORTFOLIO</a></button>
+                        </li>
+                        <li>
+                            <button class="nav-button txt page-scroll"><a class="navcolor" href="About.html">ABOUT</a></button>
+                        </li>
+                        <li>
+                            <button class="nav-button txt page-scroll"><a class="navcolor" target="_blank" href="./Resume/Amy%20Zhen%20Resume.pdf">RESUME</a></button>
+                        </li>
+                    </ul>
+                </div>
+            <!-- /.navbar-collapse -->
+            </div>
+        </nav>
 
-        <!-- Page Header -->
-    <div class="container">
-        <div class="row header">
-            <div class="col-md-9">
-                <a href="index.html">
-                    <img class="logo" src="./Projects/Logo%20Composition.png" alt="Amy Zhen Logo">
-                    <a class="heading" href="index.html">AMY ZHEN</a>
-                </a>
-<!--                    <h2 class="txt"><a href="index.html">Visual & User Interaction Designer</a></h2>-->
-            </div>
-            <div class="col-md-1">
-                <button class="nav"><a class="navcolor" href="/index.html">PORTFOLIO</a></button>
-            </div>
-            <div class="col-md-1">
-                <button class="nav"><a class="navcolor" href="About.html">ABOUT</a></button>
-            </div>
-            <div class="col-md-1">
-                <button class="nav"><a class="navcolor" target="_blank" href="./Resume/Amy%20Zhen%20Resume.pdf">RESUME</a></button>
-            </div>
-        </div>
-    </div>
-        <!-- /.row -->
-
+<!--
 
         <div class="strip">
             <div class="col-md-6 intro">
-                <p class="fade-in two">Hi, my name is Amy! <br>I am an interaction designer who loves to explore the limits of my imagination.</p>  
+                <p class="fade-in two">Hi, my name is Amy! <br>I am user experience designer who loves to explore the limits of my imagination.</p>  
                 <a href="mailto:amy.zhen03@gmail.com?Subject=Hello!"><img class="icon fade-in two" src="Projects/Email.png"></a>
                 <a href="https://www.linkedin.com/in/amyzhen" target="_blank"><img class="icon fade-in two" src="Projects/Linkedin.png"></a>
                 <a href="https://medium.com/@amyzhen" target="_blank"><img class="icon fade-in two" src="Projects/Medium%20White.png"></a>
@@ -65,7 +76,11 @@
                 <img class="circle fade-in one" src="Projects/propic.jpg" alt="Amy Zhen">
             </div>
         </div>
+-->
+    
+    
         <div class="container">
+            <div class="titleInfo"></div>
         <!-- Projects Row -->
         <div class="row">
             
@@ -151,12 +166,15 @@
             </div>-->
             <!-- /.row -->
         </footer>
+    
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 </body>
 
 </html>
