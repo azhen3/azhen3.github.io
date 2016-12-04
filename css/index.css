@@ -52,10 +52,11 @@ h2 {
 }
 .navbar {
     min-height: 60px;
+    margin-bottom: 0px;
 }
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: transparent;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -195,7 +196,7 @@ footer {
     margin-bottom: 40px;
 }
 .titleInfo {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .intro {
     font-family: 'Lato', sans-serif;
