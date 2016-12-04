@@ -194,15 +194,18 @@ footer {
     background-color: rgb(121,206,223);
     margin-bottom: 40px;
 }
+.titleInfo {
+    margin-top: 80px;
+}
 .intro {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: white;
     font-size: 35px;
-    position: absolute;
-    left: 10%;
-    top:50%;
-    transform:translateY(-50%);
+/*    position: absolute;*/
+    left: 20%;
+    top:40%;
+    transform:translateY(-40%);
     text-align: right;
 }
 .fade-in {
@@ -243,4 +246,7 @@ animation-delay: 0.5s;
 .icon {
     height:40px;
     margin: 3px;
+}
+.contentInfo {
+    margin-top: 40px;
 }
