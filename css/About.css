@@ -10,6 +10,9 @@ body {
 
 
 /*Specific Page*/
+.aboutInfo {
+    margin-top: 80px;
+}
 .about-me {
     font-weight: 300;
     padding-left: 10px;

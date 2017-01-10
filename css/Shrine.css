@@ -19,10 +19,13 @@ body {
     object-fit: cover;
     overflow: hidden;
     margin-top: 20px;
-    margin-bottom: 10px;
+}
+.imgPair {
 }
 .final {
-    height: 600px;
+    height: 550px;
     margin-top: 20px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
