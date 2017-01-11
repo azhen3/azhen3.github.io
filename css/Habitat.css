@@ -17,6 +17,12 @@ body {
 .finalScreen {
     margin-bottom: 25px;
 }
+/*
 .finalText {
     margin-top: 30px;
+}
+*/
+h5 {
+    font-size: 16pt;
+    font-weight: 400;
 }
