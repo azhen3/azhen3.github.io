@@ -195,6 +195,15 @@ footer {
     background-color: rgb(121,206,223);
     margin-bottom: 40px;
 }
+/*
+@media screen and (max-width: 320px) {
+ CSS rules here for screens lower than 750px 
+    .strip {
+        visibility: hidden;
+        display: none;
+    }
+}
+*/
 .titleInfo {
     margin-top: 50px;
 }
