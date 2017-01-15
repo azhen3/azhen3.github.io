@@ -10,6 +10,9 @@ body {
 
 
 /*Specific Page*/
+.container {
+    margin-bottom: 40px;
+}
 .aboutInfo {
     margin-top: 80px;
 }
@@ -25,13 +28,14 @@ body {
 }
 .img-me {
     width: 100%;
-    height:320px;
+    max-height:320px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
     object-fit: cover;  
     object-position: center;
     overflow: hidden;
+    display: block;
 }
 footer {
     text-align: center;

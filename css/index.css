@@ -13,8 +13,8 @@ body {
 .container{
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 1100px;
     
 }
@@ -41,13 +41,14 @@ h2 {
     border: transparent;
 }
 .logo {
-    margin-left: auto;
-    height: 50px;
+/*    margin-left: auto;*/
+    height: 40px;
     object-fit: contain;
 }
 /*Navigation*/
 .navbar-brand {
-    padding: 0px;
+    padding-top: 3%;
+    padding-bottom: 3%;
     margin: auto;
 }
 .navbar {
@@ -60,11 +61,13 @@ h2 {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
-  padding-top: 20px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+    padding-bottom: 5px;
+        padding-right: 20px;
+    padding-left: 20px;
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -202,11 +205,10 @@ footer {
 html,body {
     overflow-x: hidden;
 }
-@media all and (max-width: 420px) {
+@media only screen and (max-width: 320px) {
  CSS rules here for screens lower than 750px 
-    .intro {
-        margin-top: 10px;;
-        margin-bottom: 10px;
+    body {
+        font-size: 14px;
     }
 }
 .titleInfo {
