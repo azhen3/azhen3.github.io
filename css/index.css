@@ -65,7 +65,7 @@ h2 {
   font-weight: 200;
   letter-spacing: 1px;
   padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
         padding-right: 20px;
     padding-left: 20px;
 }
@@ -205,14 +205,8 @@ footer {
 html,body {
     overflow-x: hidden;
 }
-@media only screen and (max-width: 320px) {
- CSS rules here for screens lower than 750px 
-    body {
-        font-size: 14px;
-    }
-}
 .titleInfo {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .intro {
     font-family: 'Lato', sans-serif;
@@ -281,4 +275,19 @@ animation-delay: 0.5s;
 }
 .contentInfo {
     margin-top: 40px;
+}
+@media all and (max-width: 320px) {
+    .strip {
+        margin-bottom: 20px;
+    }
+    .intro {
+        font-size: 18px;
+    }
+    .icon {
+        height: 30px;
+        margin: 3px;
+    }
+    .titleInfo {
+        margin-top: 40px;
+    }
 }
