@@ -11,12 +11,14 @@ body {
 
 /*For specific page*/
 .spage {
-    height: 400px;
+    max-height: 400px;
+    min-height: 320px;
     width: 100%;
     object-fit: cover;
 }
 .mpage {
-    height: 500px;
+    max-height: 400px;
+    min-height: 320px;
     width: 100%;
     object-fit: cover;
 }
