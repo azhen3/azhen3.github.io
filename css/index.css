@@ -110,7 +110,7 @@ a:hover {
     color: rgb(121,206,223);
 }
 a:visited {
-    color: rgb(121,206,223);
+    color: rgb(121,206,223) !important;
 }
 .titleInfo {
     margin-top: 80px;

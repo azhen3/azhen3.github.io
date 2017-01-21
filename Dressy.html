@@ -21,6 +21,11 @@
     <link href="css/Dressy.css" rel="stylesheet">
     <link href="css/Master.css" rel="stylesheet">
     <link href="css/portFooter.css" rel="stylesheet">
+    
+    <!--    Fancybox-->
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 
 
 </head>
@@ -85,7 +90,9 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
+                <a class="fancybox" rel="group" href="/Projects/Dressy/TitleCover.jpg" title="">
                 <img class="coverpic" src="/Projects/Dressy/TitleCover.jpg" alt="Dressy Cover">
+                </a>
             </div>
         </div>
         </div>
@@ -154,7 +161,9 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/Dressy/Key%20Insight.jpg" title="">
                         <img class="img-responsive" src="Projects/Dressy/Key%20Insight.jpg" alt="Key Insights">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -166,7 +175,9 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/Dressy/Wireframe1.png" title="">
                         <img class="img-responsive" src="Projects/Dressy/Wireframe1.png" alt="Wireframes">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -187,7 +198,9 @@
                         Users can create a profile personalized to size, style, and location. This Pinterest-style news feed makes it easy for users to filter and find great dresses around their area.
                         </div>
                         <div class="col-md-4 mockup">
-                            <img class="img-responsive" src="../Projects/Dressy/Sign%20up.png">
+                            <a class="fancybox" rel="group" href="/Projects/Dressy/Sign%20up.png" title="Sign Up">
+                                <img class="img-responsive" src="../Projects/Dressy/Sign%20up.png">
+                            </a>
                         </div>
                         <div class="col-md-4 text txt">
                         </div>
@@ -197,10 +210,14 @@
                         Profile allows users to post dresses, view followers and favorites, and edit their list of uploaded posts.
                         </div>
                         <div class="col-md-3 mockup">
-                        <img class="img-responsive" src="../Projects/Dressy/Create%20Profile.png">
+                            <a class="fancybox" rel="group" href="/Projects/Dressy/Create%20Profile.png" title="Create Profile">
+                                <img class="img-responsive" src="../Projects/Dressy/Create%20Profile.png">
+                            </a>
                         </div>
                         <div class="col-md-3 mockup">
+                            <a class="fancybox" rel="group" href="/Projects/Dressy/Post.png" title="Post Dress">
                             <img class="img-responsive" src="../Projects/Dressy/Post.png">
+                            </a>
                         </div>
                         <div class="col-md-3 text txt soltext">
                             Users can post a dress quickly by taking a photo or uploading and filling out the description. Users can also set to Public or Friends Only, and can allow renters to try on before renting.
@@ -211,10 +228,14 @@
                         Selecting a dress will open a popup with more description and options to like, try on, and rent the dress.
                         </div>
                         <div class="col-md-3 mockup">
+                            <a class="fancybox" rel="group" href="/Projects/Dressy/Select%20Dress.png" title="Select Dress">
                             <img class="img-responsive" src="../Projects/Dressy/Select%20Dress.png">
+                            </a>
                         </div>
                         <div class="col-md-3 mockup">
+                            <a class="fancybox" rel="group" href="/Projects/Dressy/Rent.png" title="Rent">
                             <img class="img-responsive" src="../Projects/Dressy/Rent.png">
+                            </a>
                         </div>
                         <div class="col-md-3 text txt soltext">
                         Users can view their cart and edit items, such as payment method (which can be integrated with Paypal or Venmo) and rental period.
@@ -336,5 +357,31 @@
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox -->
+
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/jquery.fancybox.pack.js?v=2.1.6"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/ dsource/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    
+    <script>
+    $(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	   });
+    });
+    </script>
+    
+    
     </body>
 </html>

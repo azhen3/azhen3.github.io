@@ -8,12 +8,12 @@ body {
 .next {
     font-size: 16px;
     font-weight: 300;
-    color: #545454;
+    color: rgb(121,206,223);
     margin-left: 5px;
     margin-right: 5px;
 }
 .next:hover {
-    color: #545454;
+    color: rgb(121,206,223);
 }
 .foot {
     padding-left: 90%;
