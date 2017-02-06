@@ -110,6 +110,31 @@ h2 {
 .navcolor {
     color: rgb(121,206,223);
 }
+
+/*Mobile Hamburger Menu*/
+
+.navbar-toggle {
+  overflow: hidden;
+}
+.navbar-toggle .icon-bar {
+  transition: opacity, transform;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+}
+.navbar-toggle.active .icon-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.navbar-toggle.active .icon-bar:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.navbar-toggle.active .icon-bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+
+
+
 li {
     text-align: center;
 }
@@ -321,3 +346,6 @@ animation-delay: 0.5s;
         margin-top: 40px;
     }
 }
+
+
+

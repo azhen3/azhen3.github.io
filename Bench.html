@@ -34,10 +34,10 @@
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                         <span class="sr-only">Toggle navigation</span> 
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand page-scroll" href="index.html">
                         <img class="logo" src="./Projects/Logo%20Composition.png" alt="Amy Zhen Logo">
@@ -426,6 +426,14 @@
 		closeEffect	: 'none'
 	   });
     });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+			  $(".navbar-toggle").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+		});
     </script>
     
     
