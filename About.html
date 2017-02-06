@@ -19,8 +19,9 @@
 
     <!-- Custom CSS -->
     <link href="css/About.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Khula:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--    <link href='https://fonts.googleapis.com/css?family=Khula:400,300,600,700,800' rel='stylesheet' type='text/css'>-->
     <link href="css/Master.css" rel="stylesheet">
+    
     
     <!--    Fancybox-->
     <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
@@ -33,7 +34,7 @@
     
         <!--    Navigation-->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
+            <div class="container" id="mobileNav">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="sr-only">Toggle navigation</span> 
@@ -52,17 +53,17 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <button class="nav-button txt page-scroll"><a class="navcolor" href="index.html">WORK</a></button>
+                        <li onclick="location.href='index.html'";  style="cursor:pointer";>
+                            <button class="nav-button txt page-scroll"><a class="navcolor">WORK</a></button>
                         </li>
-                        <li>
-                            <button class="nav-button txt page-scroll"><a class="navcolor" href="About.html">ABOUT</a></button>
+                        <li onclick="location.href='About.html'";  style="cursor:pointer";>
+                            <button class="nav-button txt page-scroll"><a class="navcolor">ABOUT</a></button>
                         </li>
-                        <li>
-                            <button class="nav-button txt page-scroll"><a class="navcolor" target="_blank" href="./Resume/Amy%20Zhen%20Resume.pdf">RESUME</a></button>
+                        <li onclick="window.open('./Resume/Amy%20Zhen%20Resume.pdf', '_blank')"; style="cursor:pointer"; >
+                            <button class="nav-button txt page-scroll"><a class="navcolor">RESUME</a></button>
                         </li>
-                        <li>
-                            <button class="nav-button txt page-scroll"><a class="navcolor" href="mailto:amy.zhen03@gmail.com?Subject=Hello!">CONTACT</a></button>
+                        <li onclick="location.href='mailto:amy.zhen03@gmail.com?Subject=Hello!'";  style="cursor:pointer";>
+                            <button class="nav-button txt page-scroll"><a class="navcolor">CONTACT</a></button>
                         </li>
                     </ul>
                 </div>
