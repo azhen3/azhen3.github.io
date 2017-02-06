@@ -110,6 +110,9 @@ h2 {
 .navcolor {
     color: rgb(121,206,223);
 }
+li {
+    text-align: center;
+}
 button {
     outline: none;
 }

@@ -93,6 +93,9 @@ body {
 button {
     outline: none;
 }
+li {
+    text-align: center;
+}
 a {
     text-decoration:none !important;
     color: rgb(121,206,223);
