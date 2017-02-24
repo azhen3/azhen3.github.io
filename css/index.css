@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,100italic,100,400italic,700);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -28,7 +29,7 @@ body {
     margin-bottom: 30px;
 }
 h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 300;
     margin-left: 15px;
@@ -194,7 +195,7 @@ a:hover {
     object-position: 75%;
 }
 .project-name {
-    font-family:"Lato";
+    font-family:"Source Sans Pro";
     font-weight: 300;
     font-size: 20px;
     color: #545454;
@@ -249,7 +250,7 @@ html,body {
     margin-top: 30px;
 }
 .intro {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: white;
     font-size: 35px;
@@ -325,7 +326,7 @@ animation-delay: 0.5s;
     margin-top: 40px;
 }
 .footText {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 13px;
     margin-bottom: 15px;
