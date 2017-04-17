@@ -1,0 +1,88 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,100italic,100,400italic,700);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
+body {
+    padding-top: 50px; /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+/*Specific Page*/
+
+.about-me-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.about-me-sub {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(121,206,223);
+}
+.about-me-obj {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.about-me-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.about-me {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.resumeLink {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.icon {
+    height:30px;
+    margin: 10px;
+}
+button {
+    border-radius: 22px;
+    padding: 8px 24px;
+    box-shadow: none;
+    border: 0 none;
+    background: white;
+    color: rgb(121,206,223);
+}
+footer {
+    margin-bottom: 40px;
+}
+.titleInfo {
+    margin-top: 30px;
+}
+.strip {
+    background-color: rgb(121,206,223);
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+    margin-bottom: 40px;
+    position: relative;
+}
+.intro {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+html,body {
+    overflow-x: hidden;
+}
