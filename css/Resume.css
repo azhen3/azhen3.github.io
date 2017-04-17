@@ -48,10 +48,6 @@ body {
     font-weight: 300;
     font-size: 20px;
 }
-.icon {
-    height:30px;
-    margin: 10px;
-}
 button {
     border-radius: 22px;
     padding: 8px 24px;
@@ -63,9 +59,11 @@ button {
 footer {
     margin-bottom: 40px;
 }
+/*
 .titleInfo {
     margin-top: 30px;
 }
+*/
 .strip {
     background-color: rgb(121,206,223);
     margin: 0 -9999rem;
@@ -82,6 +80,8 @@ footer {
     margin-bottom: 20px;
     padding-left:20px;
     padding-right: 20px;
+    text-align: center;
+    align-content: center;
 }
 html,body {
     overflow-x: hidden;
