@@ -20,3 +20,10 @@ body {
 li {
     margin-bottom:10px; 
 }
+.prototype {
+    margin-bottom: 20px;
+}
+@media all and (min-width:320px) {
+    .prototype {
+    }
+}

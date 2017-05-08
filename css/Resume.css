@@ -86,3 +86,7 @@ footer {
 html,body {
     overflow-x: hidden;
 }
+skills {
+    padding-left: 0px;
+    padding-right: 0px;
+}

@@ -81,7 +81,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 txt subtxt">
-                CMS for News
+                News Content Management
             </div>
         </div>
         <div class="row">
@@ -106,7 +106,7 @@
                             Goal
                         </h5>
                         <p class="sum txt">
-                            Designed a solution for admins of MyCollab to create, edit, and manage announcements on the home page.   
+                            Designed a solution for admins of MyCollab to create, edit, and manage announcements that appear on the home page.   
                         </p>
                     </div>
                     <div class="col-md-3">
@@ -141,8 +141,13 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Introduce role at Cisco, and MyCollab. (2 sentences)</p>
-                        <p>Admins would always contact the Dev team if they needed to add or update announcements on the home page. This would take time away from the dev team to input correct verbiage, photo, description, link, whereas it would be much simpler to give admins permission to edit content.</p>
+                        <p>Cisco's internal tool to manage collaboration software, MyCollab, needed a serious facelift for the homepage. The service team wanted to be able to manage news and other learning tools on the homepage for users to see, but the current process required the development team to manually do this through the database.
+                        </p>
+                        <p>This would take time away from the product team to manage verbiage, photos, and other content. Because of this, the former homepage (shown below) was very simple and above the fold, and did not have any indication of MyCollab's purpose. </p>
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Old%20Homepage.png" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Old%20Homepage.png" alt="Old Homepage">
+                        </a>
+                        <p>This two-sided problem turned into an opportunity to improve the experience for both the administrators and the users, so that admins can promote important news through the homepage, and the users can learn more about this collaboration platform.</p>
                     </div>
                 </div>
             </div>
@@ -154,7 +159,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Short blurb on how you came up with the design goals with the stakeholders</p>
+                        <p>I first scoped out the problem to understand the effort, time, and needs from the service team. We met on a daily basis to discuss the requirements for the first iteration of the homepage and admin platform and narrowed them down to the following:</p>
                         <p>
                             <ul>
                                 <li>Admins are tasked with many responsibilities, and we wanted to give them a <span class="bold">simple and quick</span> method to handle just one of their daily activities so they can be as productive as possible.</li>
@@ -170,50 +175,60 @@
             <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">User-facing Homepage</h3>
+                        <h3 class="txt">Homepage Iterations</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Show iterations of the homepage, and describe the challenges involved with each one. Do a side by side comparison.</p>
+                        <p>I designed several iterations of the homepage announcements that would be located near the top of the screen.</p>
+                        <p>The design below was great for scanning all the news at once, but it felt too cluttered when placed in the layout of the page. There was too much text and it broke the flow of the page.</p>
                         <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V1.png" title="">
                         <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V1.png" alt="Main1">
                         </a>
+                        <p>The following design was great for pushing the news as part of the 'Welcome' text, but it was not practical for any more than 3 announcements. We considered arrows or navigation dots to indicate multiple sets of announcements, but it became a technical limitation when we discussed responsiveness. 
+</p>   
                         <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V2.png" title="">
                         <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V2.png" alt="Main1">
                         </a>
+
                     </div>
                 </div>
             </div>
                 <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Challenges</h3>
+                        <h3 class="txt">Final Homepage</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Describe the challenges involved with the first iteration = it got too complex.</p> 
-                        <p>V1 was organized by groups and users, where you can see who belonged to a certain group and vice versa for the user view. When it was tested with the service team, we realized very quickly that the user view was not as useful as the group view. The workflow started with a specific admin app where a person could give someone permission. It usually works the other way around, so we decided to take out the complexity and only show a group view.</p>
+                        <p>The final homepage design was one that was responsive, scannable and worked with the flow of the page. It featured a carousel to house multiple announcements, and it was visible above-the-fold to help users smoothly transition down the page.</p>
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Homepage%20Screenshot.jpg" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Homepage%20Screenshot.jpg" alt="Main1">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Solution</h3>
+                        <h3 class="txt">Admin Functionality</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Show your final iteration and images</p>
-                        <p>Final iteration is simple, with only the main page listing the groups and the group page listing the people with access. This makes it quick and simple for any user to view the lists and also add/remove permissions.
+                        <p>The next challenge was to design a CMS capable of handling numerous announcements. I iterated through the flow of the admin app (shown below), keeping the visual style consistent with the Cisco branding guidelines. After mapping out the screens, I built a <a href="https://invis.io/3JBLLAN49" target="_blank">quick prototype</a> to test with the admins.</p>
+                        
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Sketch%20Admin.png" title="">
+                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Sketch%20Admin.png" alt="Main1">
+                        </a>
+                        <p>The admin app had to be very simple but powerful enough to handle any type of announcement on any page. The main page is divided by a list of published, drafts, and archived announcements. The admins have full capability to create, edit, publish, and delete announcements with this app, essentially eliminating the time spent requesting the development team to do this. 
 </p>
-                        <a class="fancybox" rel="group" href="/Projects/CiscoUserPermissions/2%20-%20Admin%20Permissions%20Home.png" title="">
-                        <img class="img-responsive iPhone" src="Projects/CiscoUserPermissions/2%20-%20Admin%20Permissions%20Home.png" alt="Main1">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Announcement%20List.png" title="">
+                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Announcement%20List.png" alt="Main1">
                         </a>
-                        <a class="fancybox" rel="group" href="/Projects/CiscoUserPermissions/3%20-%20Group%20Page%20(Requests%20Admin).png" title="">
-                        <img class="img-responsive iPhone" src="Projects/CiscoUserPermissions/3%20-%20Group%20Page%20(Requests%20Admin).png" alt="Main1">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/5A.%20Edit%20Announcement%20Basic.jpg" title="">
+                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/5A.%20Edit%20Announcement%20Basic.jpg" alt="Main1">
                         </a>
                     </div>
                 </div>
@@ -221,12 +236,12 @@
             <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Learnings</h3>
+                        <h3 class="txt">Conclusion</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>What did you learn?</p>
+                        <p>After multiple iterations of the homepage and the admin platform, the final solution turned out to be much simpler and more powerful than initially anticipated. The service team can now manage their own announcements quickly, and users can now learn more about the new offerings from MyCollab.</p>
                     </div>
                 </div>
             </div>
