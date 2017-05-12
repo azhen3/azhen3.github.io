@@ -25,6 +25,18 @@ body {
     font-weight: 300;
     font-size: 18px;
     text-align: left;
+    margin-bottom: 40px;
+}
+.valueTitle {
+    text-align: left;
+    font-weight:400;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.value {
+    text-align: right;
+    padding-right: 50px;
 }
 .icon {
     height:30px;
@@ -33,6 +45,41 @@ body {
 .img-me {
     padding-right: 30px;
 }
-footer {
+.footContact {
+    text-align: center;
+}
+.footer {
     margin-bottom: 40px;
+}
+.strip {
+    background-color: rgb(121,206,223);
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+.intro {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+/*    padding-left:20px;*/
+/*    padding-right: 20px;*/
+    text-align: left;
+/*    align-content: center;*/
+}
+html,body {
+    overflow-x: hidden;
+}
+@media all and (max-width: 425px) {
+    .img-responsive{
+        height:300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .value {
+        text-align: left;
+    }
 }
