@@ -19,7 +19,7 @@
 
     <!-- Custom CSS -->
     <link href="css/Master.css" rel="stylesheet">
-    <link href="css/Cisco%20User%20Permissions.css" rel="stylesheet">
+    <link href="css/CiscoUserPermissions.css" rel="stylesheet">
     
     <link href="css/portFooter.css" rel="stylesheet">
     
@@ -106,7 +106,7 @@
                             Goal
                         </h5>
                         <p class="sum txt">
-                            Implemented a simple user interface on MyCollab for administrator permissions.  
+                            Implemented a simple user interface for admins to manage permissions of their tools.  
                         </p>
                     </div>
                     <div class="col-md-3">
@@ -123,9 +123,10 @@
                         </h5>
                         <p>
                             <ul class="sum txt">
-                                <li><span class="bold">Fast:</span> Reduced time from 15 minutes to 5 seconds to give a person admin permission.</li>
-                                <li><span class="bold">Reduced human error:</span> Reduced time from 15 minutes to 5 seconds to give a person admin permission.</li>
-                                <li><span class="bold">Simple:</span> Reduced time from 15 minutes to 5 seconds to give a person admin permission.</li>
+                                <li><span class="bold">Fast:</span> Reduced time from 15 minutes to 5 seconds to give a someone access to a tool.</li>
+                                <li><span class="bold">Reduced human error:</span> Instead of memorizing reference ID numbers in the database tagged with the person, the admin can now just allow a user permission from a simple search.</li>
+                                <li><span class="bold">Simple:</span> Only the necessary functionalities (add, search, delete) were implemented across two pages.
+</li>
                             </ul>
                         </p>
                     </div>
@@ -141,8 +142,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Introduce role at Cisco, and MyCollab.</p>
-                        <p>Dev team would have to access four different databases to give a user access to an admin tool. Each database included a different ID associated with a user, and the dev team had to add the user’s ID to each database. It took a total of 15 minutes to add one person. There’s also significant room for error. Could only add one person at a time.</p>
+                        <p>Cisco's collaboration learning platform also handles administration tasks, such as device ordering and content management. Admins needed a quick way to add and remove permissions to these tools.</p>
+                        <p>Previously, the development team would handle permissions to certain users. This process required four different databases to give someone access to an admin tool, taking 15 minutes just to add one person. Instead, the team needed to optimize this process and give admins the ability to manage permissions themselves.</p>
                     </div>
                 </div>
             </div>
@@ -154,7 +155,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Short blurb on how you came up with the design goals with the stakeholders</p>
+                        <p>In addition to designing a simple and easy platform for admins, I also turned the requirements into the following goals:</p>
                         <p>
                             <ul>
                                 <li>The new interface should <span class="bold">automate the back-end work</span> required to handle user IDs across multiple databases.</li>
@@ -168,12 +169,20 @@
             <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Workflow</h3>
+                        <h3 class="txt">Initial Workflow</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Describe the workflow model, and include a photo if you have one. Talk about the frist iteration of including group and user view. Show images from the first iteration.</p>
+                        <p>One of the biggest priorities was to manage permissions efficiently and quickly. The first iteration consisted of two views: groups and users. Groups included the list of all the admin platforms, and users included the list of people who had permissions. The screen below was the user view, which could expand to show all the platforms a user had access to.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoUserPermissions/Iteration%20V1.jpg" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoUserPermissions/Iteration%20V1.jpg" alt="Main1">
+                        </a>
+                    </div>
+                    <div class="col-md-12 text txt">
+                        <p>When it was tested with the service team, we realized very quickly that the user view was not as useful as the group view. The admins were more comfortable using the group view and adding permissions from there.</p>
                     </div>
                 </div>
             </div>
@@ -185,8 +194,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Describe the challenges involved with the first iteration = it got too complex.</p> 
-                        <p>V1 was organized by groups and users, where you can see who belonged to a certain group and vice versa for the user view. When it was tested with the service team, we realized very quickly that the user view was not as useful as the group view. The workflow started with a specific admin app where a person could give someone permission. It usually works the other way around, so we decided to take out the complexity and only show a group view.</p>
+                        <p>As our team collaborated more with the admin users, we discovered the opportunity to incorporate different levels of permissions. For example, a master admin could manage any level of access, while an average admin could only be given access but not be able to grant any.</p>
+                        <p>I iterated several workflows with this in mind, and the designs turned out more complex than originally thought. The team decided that as a first phase release the platform will be simple and only have one level of permissions.</p>
                     </div>
                 </div>
             </div>
@@ -198,9 +207,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Show your final iteration and images</p>
-                        <p>Final iteration is simple, with only the main page listing the groups and the group page listing the people with access. This makes it quick and simple for any user to view the lists and also add/remove permissions.
+                        <p>The final design consisted of only the group view, with an additional page for the specific admin platform. Users of this page can see all the available platforms and the admins who have access to each one. They can also add and remove admins, giving them the ability to manage permissions without the manual help from the engineering team.
 </p>
+                    </div>
+                    <div class="col-md-12">
                         <a class="fancybox" rel="group" href="/Projects/CiscoUserPermissions/2%20-%20Admin%20Permissions%20Home.png" title="">
                         <img class="img-responsive iPhone" src="Projects/CiscoUserPermissions/2%20-%20Admin%20Permissions%20Home.png" alt="Main1">
                         </a>
@@ -213,7 +223,7 @@
             <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Learnings</h3>
+                        <h3 class="txt">Conclusion</h3>
                     </div>
                 </div>
                 <div class="row">
