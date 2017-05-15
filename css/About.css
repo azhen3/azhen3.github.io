@@ -25,18 +25,23 @@ body {
     font-weight: 300;
     font-size: 18px;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .valueTitle {
     text-align: left;
     font-weight:400;
     font-size: 24px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    padding-bottom: 30px;
+/*    padding-right: 20px;*/
 }
 .value {
-    text-align: right;
+    text-align: left;
     padding-right: 50px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.val {
+    margin-bottom: 20px;
 }
 .icon {
     height:30px;
@@ -57,6 +62,7 @@ body {
   /* add back negative margin value */
   padding: 0.25rem 9999rem;
     margin-bottom: 20px;
+    margin-top: 40px;
     position: relative;
 }
 .intro {
