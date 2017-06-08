@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" 
+      type="image/png" 
+      href="NewLogo.png">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Amy Zhen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/Master.css" rel="stylesheet">
+    <link href="css/CiscoAnnouncements.css" rel="stylesheet">
+    
+    <link href="css/portFooter.css" rel="stylesheet">
+    
+    <!--    Fancybox-->
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+
+<body>
+    
+        <!--    Navigation-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span> 
+                    </button>
+                    <a class="navbar-brand page-scroll" href="index.html">
+                        <img class="logo" src="NewLogo.png" alt="Amy Zhen Logo">
+                    </a>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="heading hidden-xs page-scroll" href="index.html">AMY ZHEN</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li onclick="location.href='index.html'";  style="cursor:pointer";>
+                            <button class="nav-button page-scroll"><a class="navcolor">WORK</a></button>
+                        </li>
+                        <li onclick="location.href='About.html'";  style="cursor:pointer";>
+                            <button class="nav-button page-scroll"><a class="navcolor">ABOUT</a></button>
+                        </li>
+                        <li onclick="location.href='Resume.html'"; style="cursor:pointer";>
+                            <button class="nav-button page-scroll"><a class="navcolor">RESUME</a></button>
+                        </li>
+                        <li onclick="location.href='mailto:amy.zhen03@gmail.com?Subject=Hello!'";  style="cursor:pointer";>
+                            <button class="nav-button page-scroll"><a class="navcolor">CONTACT</a></button>
+                        </li>
+                    </ul>
+                </div>
+            <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    
+     <!-- Page Content -->
+    <div class="container">
+        <div class="titleInfo">
+        
+        <!--   Title Info     -->
+        <div class="row">
+            <div class="col-md-12 txt title-name">
+                Cisco Admin Announcements
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 txt subtxt">
+                News Content Management
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Title%20Page.png" title="">
+                    <img class="coverpic coverPos" src="/Projects/CiscoAdminAnnouncements/Title%20Page.png" alt="Title Cover">
+                </a>
+                
+            </div>
+        </div>
+        </div>
+        
+        <!--    Topic Documentation       -->
+        <section id="documentation">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h5 class="txt info">
+                            Goal
+                        </h5>
+                        <p class="sum txt">
+                            Designed a solution for admins to create, edit, and manage announcements that appear on the home page.   
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="txt info">
+                            Client
+                        </h5>
+                        <p class="sum txt">
+                            Cisco Systems
+                        </p>
+                    </div>
+                    <div class="col-md-12">
+                        <h5 class="txt info">
+                            Achievements
+                        </h5>
+                        <p>
+                            <ul class="sum txt">
+                                <li><span class="bold">Scalable:</span> Can handle the creation of numerous announcements with the ability to edit and archive.</li>
+                                <li><span class="bold">Flexible:</span> Can handle multiple types of content (text, photo, link) and display on any page on the site.</li>
+                                <li><span class="bold">Powerful:</span> Gives admins the ability to manage their own announcements without requesting the development team to add manually into the database.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--    Beginning Content     -->
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">The Problem</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>Cisco's collaboration learning platform needed a serious facelift for the homepage. The service team wanted to be able to manage news and other learning tools on the homepage for users to see, but the current process required the development team to manually do this through the database.
+                        </p>
+                        <p>This would take time away from the product team to manage verbiage, photos, and other content. Because of this, the former homepage (shown below) was very simple and above the fold, and did not have any indication of the website's purpose. </p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Old%20Homepage.png" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Old%20Homepage.png" alt="Old Homepage">
+                        </a>
+                    </div>
+                    <div class="col-md-12 text txt">
+                        <p>This two-sided problem turned into an opportunity to improve the experience for both the administrators and the users, so that admins can promote important news through the homepage, and the users can learn more about this collaboration platform.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Our Design Goals</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>I first scoped out the problem to understand the effort, time, and needs from the service team. We met on a daily basis to discuss the requirements for the first iteration of the homepage and admin platform and narrowed them down to the following:</p>
+                        <p>
+                            <ul>
+                                <li>Admins are tasked with many responsibilities, and we wanted to give them a <span class="bold">simple and quick</span> method to handle just one of their daily activities so they can be as productive as possible.</li>
+                                <li>The new interface should <span class="bold">eliminate the time spent</span> discussing back and forth between the service and the development team to add a new announcement. The service team should be able to just do this themselves.
+</li>
+                                <li>The app should have a <span class="bold">full record</span> on all announcements created in the platform.</li>  
+                                <li>The homepage should include <span class="bold">important news and information</span> about collaboration, and be <span class="bold">easy to navigate.</span></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Homepage Iterations</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>I designed several iterations of the homepage announcements that would be located near the top of the screen.</p>
+                        <p>The design below was great for scanning all the news at once, but it felt too cluttered when placed in the layout of the page. There was too much text and it broke the flow of the page.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V1.png" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V1.png" alt="Main1">
+                        </a>
+                    </div>
+                    <div class="col-md-12 text txt">
+                        <p>The following design was great for pushing the news as part of the 'Welcome' text, but it was not practical for any more than 3 announcements. We considered arrows or navigation dots to indicate multiple sets of announcements, but it became a technical limitation when we discussed responsiveness. 
+</p>   
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V2.jpg" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V2.jpg" alt="Main1">
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Final Homepage</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>The final homepage design was one that was responsive, scannable and worked with the flow of the page. It featured a carousel to house multiple announcements, and it was visible above-the-fold to help users smoothly transition down the page.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Homepage%20Screenshot.jpg" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Homepage%20Screenshot.jpg" alt="Main1">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Admin Functionality</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>The next challenge was to design a CMS capable of handling numerous announcements. I iterated through the flow of the admin app (shown below), keeping the visual style consistent with the Cisco branding guidelines. After mapping out the screens, I built a <a href="https://invis.io/3JBLLAN49" target="_blank">quick prototype</a> to test with the admins.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Sketch%20Admin.png" title="">
+                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Sketch%20Admin.png" alt="Main1">
+                        </a>
+                    </div>
+                    <div class="col-md-12 text txt">
+                        <p>The admin app had to be very simple but powerful enough to handle any type of announcement on any page. The main page is divided by a list of published, drafts, and archived announcements. The admins have full capability to create, edit, publish, and delete announcements with this app, essentially eliminating the time spent requesting the development team to do this. 
+</p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/2A.%20Announcement%20-%20Published.jpg" title="">
+                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/2A.%20Announcement%20-%20Published.jpg" alt="Main1">
+                        </a>
+                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/5A.%20Edit%20Announcement%20Basic.jpg" title="">
+                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/5A.%20Edit%20Announcement%20Basic.jpg" alt="Main1">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Conclusion</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>After multiple iterations of the homepage and the admin platform, the final solution turned out to be much simpler and more powerful than initially anticipated. The service team can now manage their own announcements quickly, and users can now learn more about the new offerings from the platform.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        
+        
+                    <!--            Portfolio Divider-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="foot rightAlign">
+                        <div class="hidden-xs hidden-sm">
+                            <a class="txt next" href="Shrine.html">prev</a>
+                            /
+                            <a class="txt next" href="Dressy.html">next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--            Portfolio Footer-->
+            <div class="row">
+            
+            <!-- Row 1-->
+            <div class="col-md-3 portfolio-item">
+                <a class="imgwrap" href="Habitat.html">
+                    <img class="img-port img-responsive" src="/Projects/Habitat/Habitat%20Thumbnail.png" alt="Habitat">
+                    <p class="project-name ptext">Habitat</p>
+                    <p class="project-info ptext">Zero-Waste Living</p>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a class="imgwrap" href="Dressy.html">
+                    <img class="img-port img-center" src="../Projects/Dressy/DressyCover.png" alt="Dressy Mobile App">
+                    <p class="project-name ptext">DRESSY</p>
+                    <p class="project-info ptext">Formalwear Mobile App</p>
+                </a>
+            </div>
+             <div class="col-md-3 portfolio-item">
+                        <a class="imgwrap" href="EMS.html">
+                            <img class="img-port" src="/Projects/EMS/Mobile%20Thumbnail.png" alt="EMS">
+                            <p class="project-name ptext">DR. EMS</p>
+                            <p class="project-info ptext">UI/UX</p>
+                        </a>
+                    </div>
+            
+            <div class="col-md-3 portfolio-item">
+                <a class="imgwrap" href="Shrine.html">
+                    <img class="img-port" src="/Projects/Shrine/Shrine%20Title.JPG" alt="Shrine">
+                    <p class="project-name ptext">SHRINE</p>
+                    <p class="project-info ptext">Furniture Design</p>
+                </a>
+            </div>
+            
+<!--
+                    <div class="col-md-3 portfolio-item">
+                        <a class="imgwrap" href="HIC.html">
+                            <img class="img-port" src="../Projects/Forge/HICReport/HIC%20Cover.png" alt="Forge Report">
+                        <p class="project-name ptext">FORGE REPORT</p>
+                        <p class="project-info ptext">Layout/Graphics</p>
+                        </a>
+                    </div>
+                   
+                   
+                    <div class="col-md-3 portfolio-item">
+                        <a class="imgwrap" href="Card.html">
+                            <img class="img-port" src="../Projects/Art/CardCover.png" alt="Card Projects">
+                        <p class="project-name ptext">CARD PROJECTS</p>
+                        <p class="project-info ptext">Illustration</p>
+                        </a>
+                    </div>
+                 <div class="col-md-3 portfolio-item">
+                        <a class="imgwrap" href="Homecoming.html">
+                            <img class="img-port" src="/Projects/Homecoming/Coverpic.jpg" alt="Homecoming">
+                        <p class="project-name ptext">HOMECOMING 2015</p>
+                        <p class="project-info ptext">Illustration/Logo</p>
+                        </a>
+                    </div>
+                <div class="col-md-3 portfolio-item">
+                <a class="imgwrap project" href="Bench.html">
+                    <img class="img-port" src="../Projects/TransferBench/Transfer%20Bench%20Cover.png" alt="GlideSlide Transfer Bench">
+                    <p class="project-name ptext">GLIDE SLIDE</p>
+                    <p class="project-info ptext">Transfer Bench Product Design</p>
+                </a>
+            </div>
+-->
+                </div>
+            <div class="footer">
+        <div class="row">
+            <div class="col-md-12 footContact">
+                <a href="mailto:amy.zhen03@gmail.com?Subject=Hello!"><img class="footIcon" src="/Projects/mail-footer.png"></a>
+                <a href="https://www.linkedin.com/in/amyzhen" target="_blank"><img class="footIcon" src="/Projects/linkedin-footer.png"></a>
+                <a href="https://medium.com/@amyzhen" target="_blank"><img class="footIcon" src="/Projects/medium-footer.png"></a>
+                <p class="footText">Amy Zhen. Copyright © 2017.</p>
+            </div>    
+        </div>
+    </div>
+    </div>
+
+
+    
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox -->
+
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/jquery.fancybox.pack.js?v=2.1.6"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/ dsource/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    
+    <script>
+    $(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	   });
+    });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+			  $(".navbar-toggle").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+		});
+    </script>
+    
+
+</body>
+</head>
+    
