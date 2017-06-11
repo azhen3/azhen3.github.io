@@ -19,7 +19,7 @@
 
     <!-- Custom CSS -->
     <link href="css/Master.css" rel="stylesheet">
-    <link href="css/CiscoAnnouncements.css" rel="stylesheet">
+    <link href="css/CiscoProduct.css" rel="stylesheet">
     
     <link href="css/portFooter.css" rel="stylesheet">
     
@@ -76,12 +76,12 @@
         <!--   Title Info     -->
         <div class="row">
             <div class="col-md-12 txt title-name">
-                Cisco Admin Announcements
+                Cisco Product Management
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 txt subtxt">
-                News Content Management
+                Admin Device Catalog
             </div>
         </div>
         <div class="row">
@@ -106,7 +106,7 @@
                             Goal
                         </h5>
                         <p class="sum txt">
-                            Designed a solution for admins to create, edit, and manage announcements that appear on the home page.   
+                            Implemented a one stop shop for admins to manage Cisco’s product catalog, where they can add new products, edit existing product info, and publish products on the app for available ordering.    
                         </p>
                     </div>
                     <div class="col-md-3">
@@ -123,9 +123,11 @@
                         </h5>
                         <p>
                             <ul class="sum txt">
-                                <li><span class="bold">Scalable:</span> Can handle the creation of numerous announcements with the ability to edit and archive.</li>
-                                <li><span class="bold">Flexible:</span> Can handle multiple types of content (text, photo, link) and display on any page on the site.</li>
-                                <li><span class="bold">Powerful:</span> Gives admins the ability to manage their own announcements without requesting the development team to add manually into the database.</li>
+                                <li><span class="bold">Autonomy:</span> Gives multiple users, such as admins, the development team and catalog pricing team the ability to manage Cisco’s products from one source.  
+</li>
+                                <li><span class="bold">Transparent:</span> All current and new products are listed in the catalog and editable by admins. This quick process helps promote products that are available for ordering. </li>
+                                <li><span class="bold">Dynamic:</span> Admins can rearrange products and categories however they want on the public page and also edit details for each.
+</li>
                             </ul>
                         </p>
                     </div>
@@ -141,17 +143,9 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>Cisco's collaboration learning platform needed a serious facelift for the homepage. The service team wanted to be able to manage news and other learning tools on the homepage for users to see, but the current process required the development team to manually do this through the database.
+                        <p>Cisco's collaboration learning platform allowed users to order products for their workplace environment. However, the information to manage product details derived from multiple data sources that contained duplicate information or were outdated. This became a problem, especially when the service team required changes in the product information. 
                         </p>
-                        <p>This would take time away from the product team to manage verbiage, photos, and other content. Because of this, the former homepage (shown below) was very simple and above the fold, and did not have any indication of the website's purpose. </p>
-                    </div>
-                    <div class="col-md-12">
-                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Old%20Homepage.png" title="">
-                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Old%20Homepage.png" alt="Old Homepage">
-                        </a>
-                    </div>
-                    <div class="col-md-12 text txt">
-                        <p>This two-sided problem turned into an opportunity to improve the experience for both the administrators and the users, so that admins can promote important news through the homepage, and the users can learn more about this collaboration platform.</p>
+                        <p>The team took this opportunity to develop a new method for admins to manage all types of product details, which  made it easy to edit without requesting the help from the development team.</p>
                     </div>
                 </div>
             </div>
@@ -163,14 +157,14 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>I first scoped out the problem to understand the effort, time, and needs from the service team. We met on a daily basis to discuss the requirements for the first iteration of the homepage and admin platform and narrowed them down to the following:</p>
+                        <p>The following goals derived from discussions with the engineers and the service team (admins who would be using the product).</p>
                         <p>
                             <ul>
-                                <li>Admins are tasked with many responsibilities, and we wanted to give them a <span class="bold">simple and quick</span> method to handle just one of their daily activities so they can be as productive as possible.</li>
-                                <li>The new interface should <span class="bold">eliminate the time spent</span> discussing back and forth between the service and the development team to add a new announcement. The service team should be able to just do this themselves.
+                                <li>The new interface should include a <span class="bold">wide range of actions</span>, such as add, edit, publish and delete products, manage the public details page, and determine pricing.
 </li>
-                                <li>The app should have a <span class="bold">full record</span> on all announcements created in the platform.</li>  
-                                <li>The homepage should include <span class="bold">important news and information</span> about collaboration, and be <span class="bold">easy to navigate.</span></li>
+                                <li>There should only be a <span class="bold">singular database</span> that includes all the updated details of each product.
+</li>
+                                <li>The product catalog should be <span class="bold">fully visible</span>, meaning that every item in the database is viewable on the admin interface.</li>  
                             </ul>
                         </p>
                     </div>
@@ -179,13 +173,19 @@
             <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Homepage Iterations</h3>
+                        <h3 class="txt">Ideation</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Initial Wireframes</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>I designed several iterations of the homepage announcements that would be located near the top of the screen.</p>
-                        <p>The design below was great for scanning all the news at once, but it felt too cluttered when placed in the layout of the page. There was too much text and it broke the flow of the page.</p>
+                        <p>The first challenge was to figure out how to display both categories and the devices that fall into them. The team first considered a WYSIWYG editor for both, but it became too cluttered when determining how product pricing might be displayed.</p>
                     </div>
                     <div class="col-md-12">
                         <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V1.png" title="">
@@ -193,58 +193,24 @@
                         </a>
                     </div>
                     <div class="col-md-12 text txt">
-                        <p>The following design was great for pushing the news as part of the 'Welcome' text, but it was not practical for any more than 3 announcements. We considered arrows or navigation dots to indicate multiple sets of announcements, but it became a technical limitation when we discussed responsiveness. 
-</p>   
-                    </div>
-                    <div class="col-md-12">
-                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V2.jpg" title="">
-                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V2.jpg" alt="Main1">
-                        </a>
+                        <p>Because the team wanted to give admins the ability to rearrange products within a category as well as categories themselves, this design became clunky and slow. Likewise, the fact that all products were pulled from the database to display here caused the accordion function to break. Thus, I began iterating on other options.</p>
                     </div>
                 </div>
             </div>
                 <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Final Homepage</h3>
+                        <h3 class="txt">Solution</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>The final homepage design was one that was responsive, scannable and worked with the flow of the page. It featured a carousel to house multiple announcements, and it was visible above-the-fold to help users smoothly transition down the page.</p>
+                        <p>I decided that, in order to simplify the actions, I had to break up the categories view and the products view. In this way, the workflow [show workflow image] would be from a high level categories view, to the products listed within a category, then to the specific product details page. This allowed category-specific or product-specific actions to be displayed on its respective page, and still made it easy to navigate between the pages.</p>
+                        <p>Show each of the pages you described separately with a GIF video/screenshot and explain the decisions made.</p>
                     </div>
                     <div class="col-md-12">
                         <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Homepage%20Screenshot.jpg" title="">
                         <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Homepage%20Screenshot.jpg" alt="Main1">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="topic">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="txt">Admin Functionality</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 text txt">
-                        <p>The next challenge was to design a CMS capable of handling numerous announcements. I iterated through the flow of the admin app (shown below), keeping the visual style consistent with the Cisco branding guidelines. After mapping out the screens, I built a <a href="https://invis.io/3JBLLAN49" target="_blank">quick prototype</a> to test with the admins.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Sketch%20Admin.png" title="">
-                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Sketch%20Admin.png" alt="Main1">
-                        </a>
-                    </div>
-                    <div class="col-md-12 text txt">
-                        <p>The admin app had to be very simple but powerful enough to handle any type of announcement on any page. The main page is divided by a list of published, drafts, and archived announcements. The admins have full capability to create, edit, publish, and delete announcements with this app, essentially eliminating the time spent requesting the development team to do this. 
-</p>
-                    </div>
-                    <div class="col-md-12">
-                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/2A.%20Announcement%20-%20Published.jpg" title="">
-                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/2A.%20Announcement%20-%20Published.jpg" alt="Main1">
-                        </a>
-                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/5A.%20Edit%20Announcement%20Basic.jpg" title="">
-                            <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/5A.%20Edit%20Announcement%20Basic.jpg" alt="Main1">
                         </a>
                     </div>
                 </div>
@@ -257,7 +223,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>After multiple iterations of the homepage and the admin platform, the final solution turned out to be much simpler and more powerful than initially anticipated. The service team can now manage their own announcements quickly, and users can now learn more about the new offerings from the platform.</p>
+                        <p>What did you learn?</p>
                     </div>
                 </div>
             </div>
