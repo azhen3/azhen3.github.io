@@ -188,7 +188,7 @@
             <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Initial Explorations</h3>
+                        <h3 class="txt">Initial Explorations and Challenges</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -196,12 +196,22 @@
                         <p>The first challenge was to figure out how to display both categories and the devices that fall into them. The team first considered a WYSIWYG editor for both, but it became too cluttered when determining how product pricing might be displayed.</p>
                     </div>
                     <div class="col-md-12">
-                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V1.png" title="">
-                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Featured%20News%20-%20V1.png" alt="Main1">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoProductManagement/Catalog%20V1.png" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoProductManagement/Catalog%20V1.png" alt="Main1">
                         </a>
                     </div>
                     <div class="col-md-12 text txt">
-                        <p>Because the team wanted to give admins the ability to rearrange products within a category as well as categories themselves, this design became clunky and slow. Likewise, the fact that all products were pulled from the database to display here caused the accordion function to break. Thus, I began iterating on other options.</p>
+                        <p>
+                            <ol>
+                                <li>Each category accordion can be rearranged, edited, deleted, or published.</li>
+                                <li>Products in a category can be rearranged as well to mimic the display order on the public page.</li>
+                                <li>On hover, each product can be edited on another page.</li>
+                                <li>Adding a new device is quick and easy from this page.</li>
+                                <li>The category actions are located on the sidebar for ease of access.</li>
+                            </ol>
+                        </p>
+                        <p>When testing this prototype with the engineers and users, I learned that this design would not be scalable. The product catalog houses hundreds of items, all of which would be pulled into this app. Therefore, it would make this accordion style clunky and slow.</p>       
+                    <p>However, I still wanted the users to perform these actions, so I went back to the drawing board to explore layout variations.</p>
                     </div>
                 </div>
             </div>
@@ -213,20 +223,22 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text txt">
-                        <p>I decided that, in order to simplify the actions, I had to break up the categories view and the products view. In this way, the workflow [show workflow image] would be from a high level categories view, to the products listed within a category, then to the specific product details page. This allowed category-specific or product-specific actions to be displayed on its respective page, and still made it easy to navigate between the pages.</p>
-                        <p>Show each of the pages you described separately with a GIF video/screenshot and explain the decisions made.</p>
+                        <p>I decided that, in order to simplify the actions, I had to break up the categories view and the products view. This one-way flow made it quick and easy to navigate.</p>
                     </div>
                     <div class="col-md-12">
-                        <a class="fancybox" rel="group" href="/Projects/CiscoAdminAnnouncements/Homepage%20Screenshot.jpg" title="">
-                        <img class="img-responsive iPhone" src="Projects/CiscoAdminAnnouncements/Homepage%20Screenshot.jpg" alt="Main1">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoProductManagement/Workflow.png" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoProductManagement/Workflow.png" alt="Main1">
                         </a>
+                    </div>
+                    <div class="col-md-12 text txt">
+                        <p>The catalog view home will display all categories, while selecting one category will direct to a separate page listing all the products.</p>
                     </div>
                 </div>
             </div>
             <div class="topic">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="txt">Conclusion</h3>
+                        <h3 class="txt">Implementation</h3>
                     </div>
                 </div>
                 <div class="row">
