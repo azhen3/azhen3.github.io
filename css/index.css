@@ -167,7 +167,7 @@ a:hover {
     margin-right: 0px;
 }
 .imgwrap:hover .img-responsive{
-    opacity: .08;
+    opacity: .4;
     -webkit-backface-visibility: hidden;
 }
 .img-responsive {
@@ -219,13 +219,16 @@ footer {
     height: 200px;
     width: 257px;
 }
-/*
 .ptext {
-    position:relative;
-    top: -200px;
-    bottom:0px;
-    left:0px;
-    right: 0px;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 20px;
+    color: #545454;
+    display: block;
+    position:absolute;
+    top: -150px;
+    bottom: 0px;
+    left: 170px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -233,13 +236,11 @@ footer {
     opacity: 0;
     transition: .4s;
 }
-*/
-/*
+
 .imgwrap:hover .ptext {
     visibility:visible;
     opacity: 1;
 }
-*/
 
 .strip {
 /*    width: 100%;*/
@@ -362,4 +363,6 @@ animation-delay: 0.5s;
 .img-top {
     object-position: top;
 }
-
+.img-left {
+    object-position: left;
+}
