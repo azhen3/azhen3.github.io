@@ -116,9 +116,6 @@ body {
 button {
     outline: none;
 }
-li {
-    text-align: center;
-}
 a {
     text-decoration:none !important;
     color: rgb(121,206,223);
@@ -193,6 +190,13 @@ h4 {
     margin-top: 0px;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+h5 {
+    font-size: 25px;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 300;
 }
 .coverpic {
     object-fit: cover;

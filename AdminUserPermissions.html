@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" 
+      type="image/png" 
+      href="NewLogo.png">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Amy Zhen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/Master.css" rel="stylesheet">
+    <link href="css/CiscoUserPermissions.css" rel="stylesheet">
+    
+    <link href="css/portFooter.css" rel="stylesheet">
+    
+    <!--    Fancybox-->
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+
+<body>
+    
+        <!--    Navigation-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span> 
+                    </button>
+                    <a class="navbar-brand page-scroll" href="index.html">
+                        <img class="logo" src="NewLogo.png" alt="Amy Zhen Logo">
+                    </a>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="heading hidden-xs page-scroll" href="index.html">AMY ZHEN</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li onclick="location.href='index.html'";  style="cursor:pointer";>
+                            <button class="nav-button page-scroll"><a class="navcolor">WORK</a></button>
+                        </li>
+                        <li onclick="location.href='About.html'";  style="cursor:pointer";>
+                            <button class="nav-button page-scroll"><a class="navcolor">ABOUT</a></button>
+                        </li>
+                        <li onclick="location.href='Resume.html'"; style="cursor:pointer";>
+                            <button class="nav-button page-scroll"><a class="navcolor">RESUME</a></button>
+                        </li>
+                        <li onclick="location.href='mailto:amy.zhen03@gmail.com?Subject=Hello!'";  style="cursor:pointer";>
+                            <button class="nav-button page-scroll"><a class="navcolor">CONTACT</a></button>
+                        </li>
+                    </ul>
+                </div>
+            <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    
+     <!-- Page Content -->
+    <div class="container">
+        <div class="titleInfo">
+        
+        <!--   Title Info     -->
+        <div class="row">
+            <div class="col-md-12 txt title-name">
+                Cisco User Permissions
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 txt subtxt">
+                Administrator Permission
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <a class="fancybox" rel="group" href="/Projects/CiscoUserPermissions/User%20Permissions%20Cover%20Photo.png" title="">
+                    <img class="coverpic coverPos" src="/Projects/CiscoUserPermissions/User%20Permissions%20Cover%20Photo.png" alt="Title Cover">
+                </a>
+                
+            </div>
+        </div>
+        </div>
+        
+        <!--    Topic Documentation       -->
+        <section id="documentation">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h5 class="txt info">
+                            Goal
+                        </h5>
+                        <p class="sum txt">
+                            Implemented a simple user interface for admins to manage permissions of their tools.  
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="txt info">
+                            Client
+                        </h5>
+                        <p class="sum txt">
+                            Cisco Systems
+                        </p>
+                    </div>
+                    <div class="col-md-12">
+                        <h5 class="txt info">
+                            Achievements
+                        </h5>
+                        <p>
+                            <ul class="sum txt">
+                                <li><span class="bold">Fast:</span> Reduced time from 15 minutes to 5 seconds to give a someone access to a tool.</li>
+                                <li><span class="bold">Reduced human error:</span> Instead of memorizing reference ID numbers in the database tagged with the person, the admin can now just allow a user permission from a simple search.</li>
+                                <li><span class="bold">Simple:</span> Only the necessary functionalities (add, search, delete) were implemented across two pages.
+</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--    Beginning Content     -->
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">The Problem</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>Cisco's collaboration learning platform also handles administration tasks, such as device ordering and content management. Admins needed a quick way to add and remove permissions to these tools.</p>
+                        <p>Previously, the development team would handle permissions to certain users. This process required four different databases to give someone access to an admin tool, taking 15 minutes just to add one person. Instead, the team needed to optimize this process and give admins the ability to manage permissions themselves.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Design Goals</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>In addition to designing a simple and easy platform for admins, I also turned the requirements into the following goals:</p>
+                        <p>
+                            <ul>
+                                <li>The new interface should <span class="bold">automate the back-end work</span> required to handle user IDs across multiple databases.</li>
+                                <li>This platform should give the service team the <span class="bold">ability to grant and remove permission</span> to specific administrator apps.</li>
+                                <li>The interface should be <span class="bold">visually consistent</span> with the rest of the admin apps, since the service team will be using majority of them.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Early Workflow</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>One of the biggest priorities was to manage permissions efficiently and quickly. The first iteration consisted of two views: groups and users. Groups included the list of all the admin platforms, and users included the list of people who had permissions. The screen below was the user view, which could expand to show all the platforms a user had access to.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoUserPermissions/Iteration%20V1.jpg" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoUserPermissions/Iteration%20V1.jpg" alt="Main1">
+                        </a>
+                    </div>
+                    <div class="col-md-12 text txt">
+                        <p>When it was tested with the service team, we realized very quickly that the user view was not as useful as the group view. The admins were more comfortable using the group view and adding permissions from there.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Challenges</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>As our team collaborated more with the admin users, we discovered the opportunity to incorporate different levels of permissions. For example, a master admin could manage any level of access, while an average admin could only be given access but not be able to grant any.</p>
+                        <p>I iterated several workflows with this in mind, and the designs turned out more complex than originally thought. The team decided that as a first phase release the platform will be simple and only have one level of permissions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Solution</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>The final design consisted of only the group view, with an additional page for the specific admin platform. Users of this page can see all the available platforms and the admins who have access to each one. They can also add and remove admins, giving them the ability to manage permissions without the manual help from the engineering team.
+</p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="fancybox" rel="group" href="/Projects/CiscoUserPermissions/2%20-%20Admin%20Permissions%20Home.png" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoUserPermissions/2%20-%20Admin%20Permissions%20Home.png" alt="Main1">
+                        </a>
+                        <a class="fancybox" rel="group" href="/Projects/CiscoUserPermissions/3%20-%20Group%20Page%20(Requests%20Admin).png" title="">
+                        <img class="img-responsive iPhone" src="Projects/CiscoUserPermissions/3%20-%20Group%20Page%20(Requests%20Admin).png" alt="Main1">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="txt">Conclusion</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text txt">
+                        <p>What did you learn?</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        
+        
+                    <!--            Portfolio Divider-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="foot rightAlign">
+                        <div class="hidden-xs hidden-sm">
+                            <a class="txt next" href="Shrine.html">prev</a>
+                            /
+                            <a class="txt next" href="Dressy.html">next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--            Portfolio Footer-->
+            <div class="row">
+            
+            <!-- Row 1-->
+            <div class="col-md-3 portfolio-item">
+                <a class="imgwrap" href="Habitat.html">
+                    <img class="img-port img-responsive" src="/Projects/Habitat/Habitat%20Thumbnail.png" alt="Habitat">
+                    <p class="project-name ptext">Habitat</p>
+                    <p class="project-info ptext">Zero-Waste Living</p>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a class="imgwrap" href="Dressy.html">
+                    <img class="img-port img-center" src="../Projects/Dressy/DressyCover.png" alt="Dressy Mobile App">
+                    <p class="project-name ptext">DRESSY</p>
+                    <p class="project-info ptext">Formalwear Mobile App</p>
+                </a>
+            </div>
+             <div class="col-md-3 portfolio-item">
+                        <a class="imgwrap" href="EMS.html">
+                            <img class="img-port" src="/Projects/EMS/Mobile%20Thumbnail.png" alt="EMS">
+                            <p class="project-name ptext">DR. EMS</p>
+                            <p class="project-info ptext">UI/UX</p>
+                        </a>
+                    </div>
+            
+            <div class="col-md-3 portfolio-item">
+                <a class="imgwrap" href="Shrine.html">
+                    <img class="img-port" src="/Projects/Shrine/Shrine%20Title.JPG" alt="Shrine">
+                    <p class="project-name ptext">SHRINE</p>
+                    <p class="project-info ptext">Furniture Design</p>
+                </a>
+            </div>
+            
+<!--
+                    <div class="col-md-3 portfolio-item">
+                        <a class="imgwrap" href="HIC.html">
+                            <img class="img-port" src="../Projects/Forge/HICReport/HIC%20Cover.png" alt="Forge Report">
+                        <p class="project-name ptext">FORGE REPORT</p>
+                        <p class="project-info ptext">Layout/Graphics</p>
+                        </a>
+                    </div>
+                   
+                   
+                    <div class="col-md-3 portfolio-item">
+                        <a class="imgwrap" href="Card.html">
+                            <img class="img-port" src="../Projects/Art/CardCover.png" alt="Card Projects">
+                        <p class="project-name ptext">CARD PROJECTS</p>
+                        <p class="project-info ptext">Illustration</p>
+                        </a>
+                    </div>
+                 <div class="col-md-3 portfolio-item">
+                        <a class="imgwrap" href="Homecoming.html">
+                            <img class="img-port" src="/Projects/Homecoming/Coverpic.jpg" alt="Homecoming">
+                        <p class="project-name ptext">HOMECOMING 2015</p>
+                        <p class="project-info ptext">Illustration/Logo</p>
+                        </a>
+                    </div>
+                <div class="col-md-3 portfolio-item">
+                <a class="imgwrap project" href="Bench.html">
+                    <img class="img-port" src="../Projects/TransferBench/Transfer%20Bench%20Cover.png" alt="GlideSlide Transfer Bench">
+                    <p class="project-name ptext">GLIDE SLIDE</p>
+                    <p class="project-info ptext">Transfer Bench Product Design</p>
+                </a>
+            </div>
+-->
+                </div>
+            <div class="footer">
+        <div class="row">
+            <div class="col-md-12 footContact">
+                <a href="mailto:amy.zhen03@gmail.com?Subject=Hello!"><img class="footIcon" src="/Projects/mail-footer.png"></a>
+                <a href="https://www.linkedin.com/in/amyzhen" target="_blank"><img class="footIcon" src="/Projects/linkedin-footer.png"></a>
+                <a href="https://medium.com/@amyzhen" target="_blank"><img class="footIcon" src="/Projects/medium-footer.png"></a>
+                <p class="footText">Amy Zhen. Copyright © 2017.</p>
+            </div>    
+        </div>
+    </div>
+    </div>
+
+
+    
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox -->
+
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/jquery.fancybox.pack.js?v=2.1.6"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    
+    <script type="text/javascript" src="/js/fancyapps-fancyBox-c00852a/ dsource/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    
+    <script>
+    $(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	   });
+    });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+			  $(".navbar-toggle").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+		});
+    </script>
+    
+
+</body>
+</head>
+    
