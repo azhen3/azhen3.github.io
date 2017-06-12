@@ -160,7 +160,7 @@ a:hover {
     height: 230px;
 }
 .portfolio-item {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 0px;
@@ -196,12 +196,16 @@ a:hover {
 }
 .project-name {
     font-family:"Source Sans Pro";
-    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 400;
     font-size: 20px;
     color: #545454;
 }
 .project-info {
-    font-family:"Lato";
+    font-family:"Source Sans Pro";
+    text-align: center;
     font-weight: 300;
     font-size: 16px;
     color: #545454;
@@ -215,6 +219,7 @@ footer {
     height: 200px;
     width: 257px;
 }
+/*
 .ptext {
     position:relative;
     top: -200px;
@@ -228,10 +233,13 @@ footer {
     opacity: 0;
     transition: .4s;
 }
+*/
+/*
 .imgwrap:hover .ptext {
     visibility:visible;
     opacity: 1;
 }
+*/
 
 .strip {
 /*    width: 100%;*/
@@ -348,5 +356,10 @@ animation-delay: 0.5s;
     }
 }
 
-
+.img-bottom {
+    object-position: bottom;
+}
+.img-top {
+    object-position: top;
+}
 
