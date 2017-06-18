@@ -87,8 +87,8 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <a class="fancybox" rel="group" href="/Projects/AdminProductCatalog/Product%20Management%20Home%20V2.png" title="">
-                    <img class="coverpic coverPos" src="/Projects/AdminProductCatalog/Product%20Management%20Home%20V2.png" alt="Title Cover">
+                <a class="fancybox" rel="group" href="/Projects/AdminProductCatalog/Title%20Cover.png" title="">
+                    <img class="coverpic coverPos" src="/Projects/AdminProductCatalog/Title%20Cover.png" alt="Title Cover">
                 </a>
                 
             </div>
@@ -102,7 +102,7 @@
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
                         <h5 class="txt info">
-                            Summary & Contributions
+                            Summary
                         </h5>
                         <p class="sum txt">
                             Implemented a one stop shop for admins to manage my client's product catalog, where they can add new products, edit existing product info, and publish products on the app for available ordering.    
@@ -133,8 +133,8 @@
                     <div class="col-md-8">
                         <h3 class="txt">The Opportunity</h3>
                         <div class="text txt">
-                            <p>The client's current learning platform allows its employees to order devices for their workplace environment. However, the admins that were in charge of managing product details actually did not have access to edit that information. This posed a huge problem, because it required asking multiple service teams to manually change product information.</p>
-                        <p>Our team took this opportunity to develop a new method for admins to manage all types of product details, which  made it easy to edit without requesting the help from the development team.</p>
+                            <p>The client's current collaboration services platform allows its employees to order devices for their workplace environment. However, the admins that were in charge of managing product details did not actually have access to edit that information. This posed a huge problem, because it required asking multiple service teams to manually change product information.</p>
+                        <p>Our team took this opportunity to develop a new interface for admins to manage all types of product details, which  made it easy to edit without requesting the help from the other services.</p>
                         </div>
                     </div>
                 </div>
@@ -148,6 +148,14 @@
                         <div class="text txt">
                             <p>I interviewed admins, the logistics team, shipping team, and pricing team to determine the current process for adding a new product to the catalog. What I discovered was that the admins had to reach out to each team separately to add product details, which wasted a significant amount of time.</p>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <a class="fancybox" rel="group" href="/Projects/AdminProductCatalog/Portfolio%20User%20Personas.jpg" title="">
+                        <img class="img-responsive" src="Projects/AdminProductCatalog/Portfolio%20User%20Personas.jpg" alt="Main1">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -179,44 +187,24 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <h3 class="txt">Ideation</h3>
-                    </div>
-                </div>
-            </div>
-    
-    
-            <div class="topic">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
-                        <h3 class="txt">Initial Explorations and Challenges</h3>
+                        <h3 class="txt">Initial Exploration</h3>
                         <div class="text txt">
-                            <p>The first challenge was to figure out how to display both categories and the devices that fall into them. The team first considered a WYSIWYG editor for both, but it became too cluttered when determining how product pricing might be displayed.</p>
+                            <p>On the current product catalog page, the devices are grouped under categories. I wanted to replicate this same type of view so it would be easy for admins to manage. The first challenge was to figure out how to display both devices and its categories with all its available actions. I explored options such as categories as accordions and a WYSIWYG editor similar to what admins are already using, while still ensuring simplicity and clarity for the busy admin.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
-                        <a class="fancybox" rel="group" href="/Projects/AdminProductCatalog/Catalog%20V1.png" title="">
-                        <img class="img-responsive" src="Projects/AdminProductCatalog/Catalog%20V1.png" alt="Main1">
+                        <a class="fancybox" rel="group" href="/Projects/AdminProductCatalog/Schema.png" title="">
+                        <img class="img-responsive" src="Projects/AdminProductCatalog/Schema.png" alt="Main1">
                         </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 text txt">
-                        <p>
-                            <ol>
-                                <li>Each category accordion can be rearranged, edited, deleted, or published.</li>
-                                <li>Products in a category can be rearranged as well to mimic the display order on the public page.</li>
-                                <li>On hover, each product can be edited on another page.</li>
-                                <li>Adding a new device is quick and easy from this page.</li>
-                                <li>The category actions are located on the sidebar for ease of access.</li>
-                            </ol>
-                        </p>
-                        <p>When testing this prototype with the engineers and users, I learned that this design would not be scalable. The product catalog houses hundreds of items, all of which would be pulled into this app. Therefore, it would make this accordion style clunky and slow.</p>       
-                    <p>However, I still wanted the users to perform these actions, so I went back to the drawing board to explore layout variations.</p>
+                        <p>However, When I tested this prototype with the engineers and users, I learned that these designs would not be scalable. The product catalog houses hundreds of items, all of which would be pulled into this app. The designs were not suitable for this reason, so I went back to the drawing board.</p>       
                     </div>
                 </div>
             </div>
@@ -226,9 +214,9 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <h3 class="txt">Solution</h3>
+                        <h3 class="txt">Implementation</h3>
                         <div class="text txt">
-                            <p>I decided that, in order to simplify the actions, I had to break up the categories view and the products view. This one-way flow made it quick and easy to navigate.</p>
+                            <p>I decided that, in order to simplify the user actions, I had to break up the categories view and the products view. This one-way flow would be quick and easy to navigate. The workflow below shows how a user would get from the homepage to editing products page.</p>
                         </div>
                     </div>
                 </div>
@@ -240,62 +228,61 @@
                         </a>
                     </div>
                 </div>
-<!--
-                <div class="row">
+                <div class="row finalScreen">
                     <div class="col-md-1"></div>
                     <div class="col-md-5">
-                        <div align="center" class="embed-responsive embed-responsive-16by9">
-                            <video autoplay controls controlsList="nodownload nofullscreen" loop class="embed-responsive-item">
-                                <source src="Projects/AdminProductCatalog/PM%20-%20Catalog.mp4" type=video/mp4>
-                            </video>
+                            <a class="fancybox" rel="group" href="/Projects/AdminProductCatalog/Product%20Management%20Home%20-%20Sample.png" title="">
+                                <img class="img-responsive iPhone" src="Projects/AdminProductCatalog/Product%20Management%20Home%20-%20Sample.png" alt="Main1">
+                            </a>
+                    </div>
+                    <div class="col-md-5">
+                         <div class="text txt">
+                            <p class="bold">Catalog Home</p>
+                            <p>By breaking out the taxonomy into several pages, it became easier to handle specific actions. On this page, the admin can create a new category, edit, publish, or rearrange the display order on the end-user products page. 
+                            </p>
                         </div>
+                        </div>
+                </div>
+                <div class="row finalScreen">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                            <a class="fancybox" rel="group" href="/Projects/AdminProductCatalog/Published%20Category%20Page%20-%20Sample.png" title="">
+                                <img class="img-responsive iPhone" src="Projects/AdminProductCatalog/Published%20Category%20Page%20-%20Sample.png" alt="Main1">
+                            </a>
                     </div>
                     <div class="col-md-5">
                         <div class="text txt">
-                            <p>TExt description goes here</p>
+                            <p class="bold">Products List</p>
+                            <p>Selecting a category will take the user to its own page, listing all the product cards. This design allows for scalability, as there could be hundreds of products already in the database.</p>
+                            <p>Users can publish a product from here, so it would be available for employees to order.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row finalScreen">
                     <div class="col-md-1"></div>
                     <div class="col-md-5">
-                        <div align="center" class="embed-responsive embed-responsive-16by9">
-                            <video autoplay controls controlsList="nodownload nofullscreen" loop class="embed-responsive-item">
-                                <source src="Projects/AdminProductCatalog/PM%20-%20New%20Device.mp4" type=video/mp4>
-                            </video>
-                        </div>
+                            <a class="fancybox" rel="group" href="/Projects/AdminProductCatalog/Add%20New%20Device%20-%20Product%20Orderable%20Sample.png" title="">
+                                <img class="img-responsive iPhone" src="Projects/AdminProductCatalog/Add%20New%20Device%20-%20Product%20Orderable%20Sample.png" alt="Main1">
+                            </a>
                     </div>
                     <div class="col-md-5">
                         <div class="text txt">
-                            <p>TExt description goes here</p>
+                            <p class="bold">Product Details</p>
+                            <p>The admin can change product information, description, pricing, and any support costs billed to the department. </p>
+                            <p>One of the biggest challenges was figuring out how to display different prices by location. The first iterations were based off of discounted percentages of the base price, but this became too complicated to calculate. The solution instead was to set a default price and then set country exceptions.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-5">
-                        <div align="center" class="embed-responsive embed-responsive-16by9">
-                            <video autoplay controls controlsList="nodownload nofullscreen" loop class="embed-responsive-item">
-                                <source src="Projects/AdminProductCatalog/PM%20-%20Device%20Details.mp4" type=video/mp4>
-                            </video>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="text txt">
-                            <p>TExt description goes here</p>
-                        </div>
-                    </div>
-                </div>
--->
-            </div>
+            </div>     
+    
+    
             <div class="topic">
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <h3 class="txt">Implementation & Measuring Success</h3>
+                        <h3 class="txt">Measuring Success</h3>
                         <div class="text txt">
-                            <p>What did you learn?</p>
-                            <p>Complex system that is still not perfect. Teams that are silo-ed does not work for large-scale merges. Legacy data is difficult to work with, and it will take some time to optimize.</p>
+                            <p>This complex system of handling the product catalog is still not perfect. However, the team was able to pull data from the logistics and pricing services into a user-friendly interface for admins to quickly manage products. In the future, the team is planning to merge the data and optimize this process.</p>
                         </div>
                         </div>
                 </div>
