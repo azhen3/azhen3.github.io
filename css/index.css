@@ -360,7 +360,7 @@ animation-delay: 0.5s;
 }
 
 .img-bottom {
-    object-position: bottom;
+    object-position:bottom;
 }
 .img-top {
     object-position: top;
