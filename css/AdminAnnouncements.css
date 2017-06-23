@@ -27,6 +27,9 @@ li {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.invision {
+    text-align: center;
+}
 @media all and (min-width:320px) {
     .prototype {
     }
